@@ -10,9 +10,12 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    //set recipe in didload and viewDidAppear *****
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        
     }
 
 
