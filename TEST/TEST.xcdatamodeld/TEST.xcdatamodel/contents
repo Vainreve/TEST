@@ -2,15 +2,15 @@
 <model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="15508" systemVersion="19B88" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
     <entity name="CDIngredient" representedClassName="CDIngredient" syncable="YES" codeGenerationType="class">
         <attribute name="name" optional="YES" attributeType="String"/>
-        <relationship name="recipe" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="CDRecipe" inverseName="ingredient" inverseEntity="CDRecipe"/>
+        <relationship name="recipes" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="CDRecipe" inverseName="ingredients" inverseEntity="CDRecipe"/>
     </entity>
     <entity name="CDRecipe" representedClassName="CDRecipe" syncable="YES" codeGenerationType="class">
         <attribute name="name" optional="YES" attributeType="String"/>
         <attribute name="preparationTime" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
-        <relationship name="ingredient" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="CDIngredient" inverseName="recipe" inverseEntity="CDIngredient"/>
+        <relationship name="ingredients" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="CDIngredient" inverseName="recipes" inverseEntity="CDIngredient"/>
     </entity>
     <elements>
-        <element name="CDRecipe" positionX="-63" positionY="-18" width="128" height="88"/>
         <element name="CDIngredient" positionX="-65.55078125" positionY="134.953125" width="128" height="73"/>
+        <element name="CDRecipe" positionX="-63" positionY="-18" width="128" height="88"/>
     </elements>
 </model>

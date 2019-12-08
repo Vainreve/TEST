@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DA407A47239B87F500CB9921 /* RecipeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA407A46239B87F500CB9921 /* RecipeTableViewController.swift */; };
+		DA407A49239BE0D900CB9921 /* EditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA407A48239BE0D900CB9921 /* EditViewController.swift */; };
 		DAA04A2D2394EA8700C394FF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAA04A2C2394EA8700C394FF /* AppDelegate.swift */; };
 		DAA04A2F2394EA8700C394FF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAA04A2E2394EA8700C394FF /* SceneDelegate.swift */; };
 		DAA04A312394EA8700C394FF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAA04A302394EA8700C394FF /* ViewController.swift */; };
@@ -39,6 +41,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DA407A46239B87F500CB9921 /* RecipeTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeTableViewController.swift; sourceTree = "<group>"; };
+		DA407A48239BE0D900CB9921 /* EditViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditViewController.swift; sourceTree = "<group>"; };
 		DAA04A292394EA8700C394FF /* TEST.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TEST.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAA04A2C2394EA8700C394FF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DAA04A2E2394EA8700C394FF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -111,6 +115,8 @@
 				DAA04A2E2394EA8700C394FF /* SceneDelegate.swift */,
 				DAA04A302394EA8700C394FF /* ViewController.swift */,
 				DAA04A322394EA8700C394FF /* Main.storyboard */,
+				DA407A48239BE0D900CB9921 /* EditViewController.swift */,
+				DA407A46239B87F500CB9921 /* RecipeTableViewController.swift */,
 				DAA04A382394EA8800C394FF /* Assets.xcassets */,
 				DAA04A3A2394EA8800C394FF /* LaunchScreen.storyboard */,
 				DAA04A3D2394EA8800C394FF /* Info.plist */,
@@ -272,12 +278,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				DAA04A312394EA8700C394FF /* ViewController.swift in Sources */,
+				DA407A47239B87F500CB9921 /* RecipeTableViewController.swift in Sources */,
 				DAA04A372394EA8700C394FF /* TEST.xcdatamodeld in Sources */,
 				DAA04A642394ED6400C394FF /* RecipeController.swift in Sources */,
 				DAA04A622394ED4900C394FF /* Ingredient.swift in Sources */,
 				DAA04A2D2394EA8700C394FF /* AppDelegate.swift in Sources */,
 				DAA04A2F2394EA8700C394FF /* SceneDelegate.swift in Sources */,
 				DAA04A602394ED3700C394FF /* Recipe.swift in Sources */,
+				DA407A49239BE0D900CB9921 /* EditViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
